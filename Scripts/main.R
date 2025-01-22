@@ -57,3 +57,8 @@ citosolprot_go <- enrichGO(gene = unique(citosolprot_tbl$SYMBOL),
                        minGSSize = 1,
                        maxGSSize = 500)
 
+
+# STRING ------------------------------------------------------------------
+
+clipr::write_clip(unique(memprot_tbl$SYMBOL))
+clipr::write_clip(unique(citosolprot_tbl$SYMBOL))
