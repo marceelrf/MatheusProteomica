@@ -1,0 +1,8 @@
+protein.key;protein.Entry;protein.Accession;protein.Description;protein.dataBaseType;protein.score;protein.falsePositiveRate;protein.avgMass;protein.MatchedProducts;protein.matchedPeptides;protein.digestPeps;protein.seqCover(%);protein.MatchedPeptideIntenSum;protein.top3MatchedPeptideIntenSum;protein.MatchedProductIntenSum;protein.fmolOnColumn;protein.ngramOnColumn;protein.AutoCurate;protein.Key_ForHomologs
+5084;HBG2_HUMAN;P69892;Hemoglobin subunit gamma-2 OS=Homo sapiens OX=9606 GN=HBG2 PE=1 SV=2;Regular;3.023.406;0.00;161.834.933;10;1;14;6.80;17778;0;14243;;;Green;1922 1923 5081 5083
+5083;HBG1_HUMAN;P69891;Hemoglobin subunit gamma-1 OS=Homo sapiens OX=9606 GN=HBG1 PE=1 SV=2;Regular;3.023.406;0.00;161.975.201;10;1;14;6.80;17778;0;14243;;;Green;1922 1923 5081 5084
+5081;HBB_HUMAN;P68871;Hemoglobin subunit beta OS=Homo sapiens OX=9606 GN=HBB PE=1 SV=2;Regular;3.023.406;0.00;161.124.817;10;1;13;6.80;17778;0;14243;;;Green;1922 1923 5083 5084
+1923;HBE_HUMAN;P02100;Hemoglobin subunit epsilon OS=Homo sapiens OX=9606 GN=HBE1 PE=1 SV=2;Regular;3.023.406;0.00;162.598.774;10;1;14;6.80;17778;0;14243;;;Green;1922 5081 5083 5084
+1922;HBD_HUMAN;P02042;Hemoglobin subunit delta OS=Homo sapiens OX=9606 GN=HBD PE=1 SV=2;Regular;3.023.406;0.00;161.695.581;10;1;13;6.80;17778;53334;14243;;;Green;1923 5081 5083 5084
+1958;FINC_HUMAN;P02751;Fibronectin OS=Homo sapiens OX=9606 GN=FN1 PE=1 SV=5;Regular;1.514.443;0.00;2.759.133.494;140;20;151;12.15;177365;57070;172447;;;Green;
+1964;ALBU_HUMAN;P02768;Albumin OS=Homo sapiens OX=9606 GN=ALB PE=1 SV=2;Regular;1.489.249;0.00;713.627.109;53;6;61;8.21;347707;115853;188898;;;Green;

@@ -1,0 +1,2 @@
+protein.key;protein.Entry;protein.Accession;protein.Description;protein.dataBaseType;protein.score;protein.falsePositiveRate;protein.avgMass;protein.MatchedProducts;protein.matchedPeptides;protein.digestPeps;protein.seqCover(%);protein.MatchedPeptideIntenSum;protein.top3MatchedPeptideIntenSum;protein.MatchedProductIntenSum;protein.fmolOnColumn;protein.ngramOnColumn;protein.AutoCurate;protein.Key_ForHomologs
+3020;H4_MOUSE;P62806;Histone H4 OS=Mus musculus OX=10090 GN=H4c1 PE=1 SV=2;Regular;8.089.598;0.00;113.673.627;10;1;11;9.71;7045;21135;2965;;;Green;

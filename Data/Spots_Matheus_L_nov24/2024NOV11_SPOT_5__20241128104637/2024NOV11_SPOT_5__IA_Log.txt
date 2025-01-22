@@ -1,0 +1,184 @@
+
+*******************************************************************************
+--------------------------------- IADBs ------------------------------------
+--------------------- Copyright © 2008-2015 Waters Corporation ---------------------
+Version 2.175 Compiled: 11/19/2015 6:33 PM
+Run at: 11/28/2024 10:46 AM
+Command Line:
+
+-paraXMLFileName C:\Users\Administrator\AppData\Local\Temp\plgs5155424540600323830.params -pep3DFilename C:\Users\Administrator\AppData\Local\Temp\plgs5155424540600323830.bin -proteinFASTAFileName D:\Databases\homo_sapiens_rev_junho23_reverse.fas_def -outPutDirName C:\Users\Administrator\AppData\Local\Temp -outputUserDirName C:\Users\Administrator\AppData\Local\Temp -newWorkflowXML -maxCPUs 7 -WriteBinary 1
+
+ Parameter XML file:
+<IA_PARAMS>
+    <FASTA_FORMAT VALUE="DEF" />
+    <PRECURSOR_MHP_WINDOW_PPM VALUE="-1" />
+    <PRODUCT_MHP_WINDOW_PPM VALUE="-1" />
+    <NUM_BY_MATCH_FOR_PEPTIDE_MINIMUM VALUE="2" />
+    <NUM_PEPTIDE_FOR_PROTEIN_MINIMUM VALUE="1" />
+    <NUM_BY_MATCH_FOR_PROTEIN_MINIMUM VALUE="5" />
+    <PROTEIN_MASS_MAXIMUM_AMU VALUE="600000" />
+    <FALSE_POSITIVE_RATE VALUE="4" />
+    <AQ_PROTEIN_ACCESSION VALUE="P00924" />
+    <AQ_PROTEIN_MOLES VALUE="100" />
+    <MANUAL_RESPONSE_FACTOR VALUE="-1" />
+    <DIGESTS>
+        <ANALYSIS_DIGESTOR MISSED_CLEAVAGES="1">
+            <AMINO_ACID_SEQUENCE_DIGESTOR NAME="Trypsin" UUID="929eb707-4f2d-46bf-84f6-798180bce852">
+                <CLEAVES_AT AMINO_ACID="K" POSITION="C-TERM">
+                    <EXCLUDES AMINO_ACID="P" POSITION="N-TERM" />
+                </CLEAVES_AT>
+                <CLEAVES_AT AMINO_ACID="R" POSITION="C-TERM">
+                    <EXCLUDES AMINO_ACID="P" POSITION="N-TERM" />
+                </CLEAVES_AT>
+            </AMINO_ACID_SEQUENCE_DIGESTOR>
+        </ANALYSIS_DIGESTOR>
+    </DIGESTS>
+    <MODIFICATIONS>
+        <ANALYSIS_MODIFIER ENRICHED="FALSE" STATUS="FIXED">
+            <MODIFIER MCAT_REAGENT="No" NAME="Carbamidomethyl+C">
+                <MODIFIES APPLIES_TO="C" DELTA_MASS="57.0215" TYPE="SIDECHAIN" />
+            </MODIFIER>
+        </ANALYSIS_MODIFIER>
+        <ANALYSIS_MODIFIER ENRICHED="FALSE" STATUS="VARIABLE">
+            <MODIFIER MCAT_REAGENT="No" NAME="Oxidation+M">
+                <MODIFIES APPLIES_TO="M" DELTA_MASS="15.9949" TYPE="SIDECHAIN" />
+            </MODIFIER>
+        </ANALYSIS_MODIFIER>
+    </MODIFICATIONS>
+</IA_PARAMS>
+
+  Input parameters                                values
+*******************************************************************************
+ Parameter XML file:       "C:\Users\Administrator\AppData\Local\Temp\plgs5155424540600323830.params"
+ Spectrum  Bin File:       "C:\Users\Administrator\AppData\Local\Temp\plgs5155424540600323830.bin"
+ Protein   FAS File:       "D:\Databases\homo_sapiens_rev_junho23_reverse.fas_def"
+ Output Directory:         "C:\Users\Administrator\AppData\Local\Temp"
+ User Output Directory:    "C:\Users\Administrator\AppData\Local\Temp"
+
+ Instrument Model:   XEVO-G2QTOF
+ Instrument Serial#: YCA119
+ Raw Input File: "F:\RAW_BACKUP\SPOT_VITOR_IBB_NOV24\2024NOV11_SPOT_5_.raw"
+ Acquired Name: "2024NOV11_SPOT_5_"
+ Acquired Date: "30-Dec-1899"
+ Acquired Time: "00:00:00"
+ Sample Description: "Unknown"
+
+Processed by:
+ Apex3D version 3.0.14.11,  compiled: 6/18/2015 processed: 11/28/2024
+    command line: "C:\PLGS3.0.3\lib\apex3d\Apex3D64.exe" -pRawDirName "F:\RAW_BACKUP\SPOT_VITOR_IBB_NOV24\2024NOV11_SPOT_5_.raw" -outputDirName "C:\Users\Administrator\AppData\Local\Temp" -outputUserDirName "C:\Users\Administrator\AppData\Local\Temp" -lockmassZ2 785.8426 -lockMassToleranceAMU 0.4 -leThresholdCounts 500.0 -heThresholdCounts 50.0 -writeXML 1 -PLGS 1 
+
+ Peptide3D version 2.120.5883.20180,  compiled: 2/9/2016 processed: 11/28/2024
+    command line: C:\PLGS3.0.3\lib\apex3d\Peptide3D.exe -inputFilename C:\Users\Administrator\AppData\Local\Temp\2024nov11_spot_5__Apex3D.bin -outputDirName C:\Users\Administrator\AppData\Local\Temp -outputUserDirName C:\Users\Administrator\AppData\Local\Temp -minLEMHPlus 350.0
+                   -clusMzFwhmFraction 0.1428 -amrtMzFwhmFraction 0.219 -amrtChFWHMFraction 0.25
+
+
+Resolution                     = 14869.49
+Precursor MHPlus Window PPM    = 6.725181 (set automatically by resolution)
+Product MHPlus Window PPM      = 16.81295 (set automatically by resolution)
+Max MHPlus Window PPM          = 33.6259
+Bin FWHM Fraction              = 0.1428571
+Report homologs                = True
+Leucine Isoleucine homologs    = True
+Min Amino Acids per PepFrag1   = 6
+Min fragments per peptide      = 2
+Min peptides per protein       = 1
+Min fragments per protein      = 5
+Max False positive rate        = 4
+Pass 1 False positive rate     = 100
+Max protein mass               = 600000
+Min ratio by to theoretical    = 0.3
+Min sumProdInten/precInten     = 0.03
+Max sumProdInten/precInten     = 1
+Max simultaneous varMods       = 3
+Max CPUs                       = 7
+ScoreFactors                   = 1, 9, 3.5, 1, 1.9, 1, 2, 1
+Allow Charge 1 only peptides   = True
+Search Adducts                 = False
+No Pass 2                      = False
+No Pass 3                      = False
+Non-specific Pass              = False
+
+Read 1894 LE ions, 66401 HE ions (66401 binned), 1893 bins in 0.5604062 seconds
+Read 40848 proteins in 1.6850848 seconds
+Matched 64353 out of 1810630 peptides in digest to 64353 matches in 17426 of 40848 proteins
+Insufficient pass 0 matches for mass cal
+Matched 64354 out of 1810630 peptides in digest to 64354 matches in 17428 of 40848 proteins
+After Pass1:  265 distraction, 415 regular proteins
+
+Calibrating AutoCurate Thresholds using 8125 distraction peptides
+Median Random pepScore 3.738262 Std Random pepScore 0.3521139
+Red-Yellow Threshold is 4.62 which is 2.50 stddevs above the mean
+Yellow-Green Threshold is 5.15 which is 4.00 stddevs above the mean
+Median Random raw pepScore 177.2644 Std Random raw pepScore 164.9552
+
+Statistics:
+pepBinomial: Min 0.0000 Max 0.2440 Mean 0.0048 StdDev 0.0181
+precModelRT: Min 0.0000 Max 0.0000 Mean 0.0000 StdDev 0.0000
+precMassErr: Min -4.8969 Max 4.6161 Mean -0.0851 StdDev 1.4356
+fragSimilarity: Min 0.0163 Max 0.9783 Mean 0.5291 StdDev 0.1796
+weightedSeqCoverage: Min 0.0000 Max 0.7500 Mean 0.1453 StdDev 0.1381
+byTheoretical: Min -5.3739 Max 1.0000 Mean -0.5628 StdDev 0.9337
+prodRtErr: Min 0.0000 Max 1.0000 Mean 0.0743 StdDev 0.1570
+prodMassErr: Min 0.0000 Max 1.0000 Mean 0.1327 StdDev 0.2332
+
+After Pass2 Depletion:  149 distraction, 229 regular proteins
+After Filter Proteins:  1 distraction, 39 regular proteins
+
+******************************* Results Summary ********************************
+
+Number of hit groups:   	13
+Proteins:
+ Number of good matches:	39
+                Green  :	34
+                Yellow :	4
+                Red    :	1
+ Number of distractions:	1
+Peptides:
+ Number of matches:     	102
+                Green  :	62
+                Yellow :	18
+                Red    :	22
+Fragments:
+ Number of matches:     	939
+                                          Precursors 	 Products
+ Number of PepFrag1 matches:                    88 	      861
+     Green                                      62 	      658
+     Yellow                                     14 	      128
+     Red                                        12 	       75
+ Number of PepFrag2 matches:                    11 	       44
+     Green                                       0 	        0
+     Yellow                                      2 	        9
+     Red                                         9 	       35
+ Number of MissedCleavage matches:               3 	       34
+     Green                                       0 	        0
+     Yellow                                      2 	       27
+     Red                                         1 	        7
+********************************************************************************
+Non Homologous:
+Proteins:
+ Number of good matches:	12
+                Green  :	7
+                Yellow :	4
+                Red    :	1
+ Number of distractions:	1
+Peptides:
+ Number of matches:     	64
+                Green  :	24
+                Yellow :	18
+                Red    :	22
+Fragments:
+ Number of matches:     	575
+                                          Precursors 	 Products
+ Number of PepFrag1 matches:                    50 	      497
+     Green                                      24 	      294
+     Yellow                                     14 	      128
+     Red                                        12 	       75
+ Number of PepFrag2 matches:                    11 	       44
+     Green                                       0 	        0
+     Yellow                                      2 	        9
+     Red                                         9 	       35
+ Number of MissedCleavage matches:               3 	       34
+     Green                                       0 	        0
+     Yellow                                      2 	       27
+     Red                                         1 	        7
+Total processing time: 15.3033468 seconds

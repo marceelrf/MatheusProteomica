@@ -1,0 +1,12 @@
+protein.key;protein.Entry;protein.Accession;protein.Description;protein.dataBaseType;protein.score;protein.falsePositiveRate;protein.avgMass;protein.MatchedProducts;protein.matchedPeptides;protein.digestPeps;protein.seqCover(%);protein.MatchedPeptideIntenSum;protein.top3MatchedPeptideIntenSum;protein.MatchedProductIntenSum;protein.fmolOnColumn;protein.ngramOnColumn;protein.AutoCurate;protein.Key_ForHomologs
+2032;K2C1_HUMAN;P04264;Keratin_ type II cytoskeletal 1 OS=Homo sapiens OX=9606 GN=KRT1 PE=1 SV=6;Regular;7.622.040;0.00;662.098.959;108;11;50;20.65;125179;56777.36;101315;;;Green;3793
+1993;MMP1_HUMAN;P03956;Interstitial collagenase OS=Homo sapiens OX=9606 GN=MMP1 PE=1 SV=3;Regular;5.676.016;0.00;541.780.680;86;12;37;31.13;118716;52000;70177;;;Green;
+5084;HBG2_HUMAN;P69892;Hemoglobin subunit gamma-2 OS=Homo sapiens OX=9606 GN=HBG2 PE=1 SV=2;Regular;2.273.305;0.00;161.834.933;10;1;14;6.80;54586;0;27465;;;Green;1922 1923 5081 5083
+5083;HBG1_HUMAN;P69891;Hemoglobin subunit gamma-1 OS=Homo sapiens OX=9606 GN=HBG1 PE=1 SV=2;Regular;2.273.305;0.00;161.975.201;10;1;14;6.80;54586;0;27465;;;Green;1922 1923 5081 5084
+5081;HBB_HUMAN;P68871;Hemoglobin subunit beta OS=Homo sapiens OX=9606 GN=HBB PE=1 SV=2;Regular;2.273.305;0.00;161.124.817;10;1;13;6.80;54586;0;27465;;;Green;1922 1923 5083 5084
+1923;HBE_HUMAN;P02100;Hemoglobin subunit epsilon OS=Homo sapiens OX=9606 GN=HBE1 PE=1 SV=2;Regular;2.273.305;0.00;162.598.774;10;1;14;6.80;54586;0;27465;;;Green;1922 5081 5083 5084
+1922;HBD_HUMAN;P02042;Hemoglobin subunit delta OS=Homo sapiens OX=9606 GN=HBD PE=1 SV=2;Regular;2.273.305;0.00;161.695.581;10;1;13;6.80;54586;163758;27465;;;Green;1923 5081 5083 5084
+1964;ALBU_HUMAN;P02768;Albumin OS=Homo sapiens OX=9606 GN=ALB PE=1 SV=2;Regular;2.239.470;0.00;713.627.109;66;6;61;8.21;467799;206230;253415;;;Green;
+3793;K22E_HUMAN;P35908;Keratin_ type II cytoskeletal 2 epidermal OS=Homo sapiens OX=9606 GN=KRT2 PE=1 SV=2;Regular;1.242.629;0.00;657.181.023;28;4;58;6.89;59437;20574.64;31658;;;Green;2032
+2389;CO4A_HUMAN;P0C0L4;Complement C4-A OS=Homo sapiens OX=9606 GN=C4A PE=1 SV=2;Regular;1.276.043;0.00;1.943.825.114;64;12;127;6.36;111253;60538;81399;;;Green;2390
+2390;CO4B_HUMAN;P0C0L5;Complement C4-B OS=Homo sapiens OX=9606 GN=C4B PE=1 SV=2;Regular;1.222.153;0.00;1.942.914.576;60;10;127;5.68;106200;0;79015;;;Green;2389

@@ -1,0 +1,4 @@
+protein.key;protein.Entry;protein.Accession;protein.Description;protein.dataBaseType;protein.score;protein.falsePositiveRate;protein.avgMass;protein.MatchedProducts;protein.matchedPeptides;protein.digestPeps;protein.seqCover(%);protein.MatchedPeptideIntenSum;protein.top3MatchedPeptideIntenSum;protein.MatchedProductIntenSum;protein.fmolOnColumn;protein.ngramOnColumn;protein.AutoCurate;protein.Key_ForHomologs
+1958;FINC_HUMAN;P02751;Fibronectin OS=Homo sapiens OX=9606 GN=FN1 PE=1 SV=5;Regular;1.761.241;0.00;2.759.133.494;123;19;151;11.55;103465;32415;82546;;;Green;
+2032;K2C1_HUMAN;P04264;Keratin_ type II cytoskeletal 1 OS=Homo sapiens OX=9606 GN=KRT1 PE=1 SV=6;Regular;965.094;0.00;662.098.959;49;8;50;13.66;48029;23668;37465;;;Green;
+2239;TSP1_HUMAN;P07996;Thrombospondin-1 OS=Homo sapiens OX=9606 GN=THBS1 PE=1 SV=2;Regular;808.243;0.00;1.333.747.259;61;12;108;10.68;44644;17965;38245;;;Green;
